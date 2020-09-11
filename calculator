@@ -1,0 +1,27 @@
+<?php
+echo"Enter the first number:";
+$a=readline();
+echo"Enter the second number:";
+$b=readline();
+echo"Operation symbol:";
+$value=readline();
+switch($value)
+{
+case '+':
+	echo "Result:", $a+$b;
+	break;
+case '-':
+	echo "Result:", $a-$b;
+	break;
+case '*':
+	echo "Result:", $a*$b;
+	break;
+case '/':
+	echo "Result:", $a/$b;
+	break;
+default:
+	echo "Unrecognised Operation";
+
+}
+echo"\n";
+?>
